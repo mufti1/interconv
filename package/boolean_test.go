@@ -1,7 +1,6 @@
 package interconv_test
 
 import (
-	"encoding/json"
 	"testing"
 
 	"github.com/mufti1/interconv/package"
