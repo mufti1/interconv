@@ -8,3 +8,4 @@ Development
 # Data type that can be converted
 - Int64
 - float64
+- Boolean
