@@ -9,3 +9,9 @@ Development
 - Int64
 - float64
 - Boolean
+- String
+
+# License
+
+it is released under the MIT license. See 
+[LICENSE](https://github.com/mufti1/interconv/blob/master/LICENSE).
