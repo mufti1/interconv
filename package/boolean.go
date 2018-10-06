@@ -2,7 +2,6 @@ package interconv
 
 import (
 	"fmt"
-	"reflect"
 )
 
 // ParseBoolean function to convert other type data to boolean
@@ -19,7 +18,6 @@ func ParseBoolean(val interface{}) (bool, error) {
 	case 0:
 		return false, nil
 	default:
-		return false, fmt.Errorf("unable to casting %v (type %v)", val, reflect.TypeOf(val))
+		return false, fmt.Errorf("unable to casting %v (type %T)", val, val)
 	}
 }
-
