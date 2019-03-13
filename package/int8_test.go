@@ -10,8 +10,8 @@ import (
 func TestParseInt8(t *testing.T) {
 	t.Run("Nil", func(t *testing.T) {
 		convertedNum, _ := interconv.ParseInt8(nil)
-		if convertedNum != 1 {
-			t.Fatalf("return must be 1 instead of %v", convertedNum)
+		if convertedNum != 0 {
+			t.Fatalf("return must be 0 instead of %v", convertedNum)
 		}
 	})
 	t.Run("Json Number", func(t *testing.T) {

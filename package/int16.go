@@ -4,7 +4,7 @@ package interconv
 func ParseInt16(val interface{}) (int16, error) {
 	number, err := ParseFloat64(val)
 	if err != nil {
-		return -1, err
+		return 0, err
 	}
 	return int16(number), err
 }

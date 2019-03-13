@@ -6,15 +6,15 @@ This is package golang for convert interface into any data type
 
 ## How To Use
 -   get package
-```
+```go
 go get github.com/mufti1/interconv/package
-```
+```go
 -   import 
-```
+```go
 import "github.com/mufti1/interconv/package"
 ```
 -   use
-```
+```go
 var i interface{}
 // example for float64
 // you can use error return if you need it
