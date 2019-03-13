@@ -8,7 +8,7 @@ This is package golang for convert interface into any data type
 -   get package
 ```go
 go get github.com/mufti1/interconv/package
-```go
+```
 -   import 
 ```go
 import "github.com/mufti1/interconv/package"
